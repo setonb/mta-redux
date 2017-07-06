@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import GetTimes from './get-times-reducer';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  times: GetTimes
 });
 
 export default rootReducer;
